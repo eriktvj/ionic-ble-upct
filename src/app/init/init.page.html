@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Configuración.</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+
+        <ion-label> Introduce un ID...</ion-label>
+
+        <ion-input [(ngModel)]="sessionID" ></ion-input>
+
+        <ion-label> Introduce un UUID...</ion-label>
+
+        <ion-input [(ngModel)]="serviceUUID"></ion-input>
+
+        <ion-label> Introduce un tiempo de trabajo...</ion-label>
+
+        <ion-input [(ngModel)]="workCycle"></ion-input>
+
+        <ion-label> Introduce un tiempo de escáneo...</ion-label>
+
+        <ion-input [(ngModel)]="scanCycle"></ion-input>
+
+        <ion-label> Introduce una API...</ion-label>
+
+        <ion-input [(ngModel)]="apiHttp"></ion-input>
+
+        <ion-label> Introduce un correo para recibir el log. (Opcional)</ion-label>
+
+        <ion-input [(ngModel)]="logMail"></ion-input>
+
+
+    </ion-list>
+    <ion-fab horizontal="center" slot="fixed" vertical="bottom">
+        <ion-fab-button color="warning" size="large" (click)="acceptButton()">OK</ion-fab-button>
+    </ion-fab>
+</ion-content>
+
+
+<style>
+  .container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  </style>

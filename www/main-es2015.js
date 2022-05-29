@@ -5,21 +5,34 @@
   !*** ./$$_lazy_route_resource lazy namespace object ***!
   \******************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
+var map = {
+	"./init/init.module": [
+		"./src/app/init/init.module.ts",
+		"common",
+		"init-init-module"
+	]
+};
+function webpackAsyncContext(req) {
+	if(!__webpack_require__.o(map, req)) {
+		return Promise.resolve().then(function() {
+			var e = new Error("Cannot find module '" + req + "'");
+			e.code = 'MODULE_NOT_FOUND';
+			throw e;
+		});
+	}
+
+	var ids = map[req], id = ids[0];
+	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
+		return __webpack_require__(id);
 	});
 }
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+module.exports = webpackAsyncContext;
 
 /***/ }),
 
@@ -466,8 +479,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home', loadChildren: () => __webpack_require__.e(/*! import() | home-home-module */ "home-home-module").then(__webpack_require__.bind(null, /*! ./home/home.module */ "./src/app/home/home.module.ts")).then(m => m.HomePageModule) },
+    { path: '', redirectTo: 'init', pathMatch: 'full' },
+    { path: 'home', loadChildren: () => Promise.all(/*! import() | home-home-module */[__webpack_require__.e("common"), __webpack_require__.e("home-home-module")]).then(__webpack_require__.bind(null, /*! ./home/home.module */ "./src/app/home/home.module.ts")).then(m => m.HomePageModule) },
+    { path: 'init', loadChildren: './init/init.module#InitPageModule' },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -569,6 +583,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ionic_native_ble_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic-native/ble/ngx */ "./node_modules/@ionic-native/ble/ngx/index.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _ionic_native_background_geolocation_ngx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic-native/background-geolocation/ngx */ "./node_modules/@ionic-native/background-geolocation/ngx/index.js");
+/* harmony import */ var _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @ionic-native/http/ngx */ "./node_modules/@ionic-native/http/ngx/index.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ionic-native/file/ngx */ "./node_modules/@ionic-native/file/ngx/index.js");
+/* harmony import */ var _awesome_cordova_plugins_email_composer_ngx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @awesome-cordova-plugins/email-composer/ngx */ "./node_modules/@awesome-cordova-plugins/email-composer/ngx/index.js");
+
+
+
+
+
 
 
 
@@ -589,7 +613,12 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         providers: [
             _ionic_native_ble_ngx__WEBPACK_IMPORTED_MODULE_7__["BLE"],
             _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_6__["StatusBar"],
+            _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_11__["HTTP"],
             _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_5__["SplashScreen"],
+            _ionic_native_background_geolocation_ngx__WEBPACK_IMPORTED_MODULE_10__["BackgroundGeolocation"],
+            _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_13__["File"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_12__["DatePipe"],
+            _awesome_cordova_plugins_email_composer_ngx__WEBPACK_IMPORTED_MODULE_14__["EmailComposer"],
             { provide: _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouteReuseStrategy"], useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicRouteStrategy"] }
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
@@ -661,7 +690,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Erik\ionicBLE_code-master\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Erik\T1_basic_scanner\src\main.ts */"./src/main.ts");
 
 
 /***/ })

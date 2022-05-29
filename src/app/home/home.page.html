@@ -3,10 +3,6 @@
     <ion-title>
       Escáner básico.
     </ion-title>
-    <ion-button (click)="Scan()" slot="end">
-      <ion-icon name="Bluetooth"></ion-icon>
-      <p>Scan</p>
-    </ion-button>
   </ion-toolbar>
 </ion-header>
 
@@ -16,7 +12,21 @@
       <p>{{device.name || 'Unnamed'}}</p>
       <p>{{device.id}}</p>
       <p> RSSI: {{device.rssi}}</p>
-      <p> ADV: {{device.advertising}}</p>
     </ion-card-content>
+    <p>{{testMessage}}</p>
   </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-button (click)="singleMode()"> Single </ion-button>
+  </ion-fab>
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button [color]='scanStatus ? "danger" : "primary"' (click)="onScanClicked()">
+      <ion-icon [name]='scanStatus ? "pause" : "play"' style="font-size: 25px;"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+
 </ion-content>

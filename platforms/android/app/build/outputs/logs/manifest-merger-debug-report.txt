@@ -1,106 +1,419 @@
 -- Merging decision tree log ---
+provider#de.appplant.cordova.emailcomposer.Provider
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:32:9-34:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:32:106-140
+	android:authorities
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:32:19-80
+	android:exported
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:32:81-105
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:32:141-198
 manifest
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-MERGED from [:CordovaLib] C:\Users\Erik\ionicBLE_code-master\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.github.tony19:logback-android:1.1.1-9] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c7a3b9983e0b7937e897b90edb129fc\jetified-logback-android-1.1.1-9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:2:1-18:12
+MERGED from [:CordovaLib] C:\Users\Erik\T1_basic_scanner\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\33bbb39eb2720ade5a26cdc91a633520\jetified-play-services-location-11.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\23e73c7a8d9ebe6640bcd58a6921e680\jetified-play-services-tasks-11.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\dbd7f3404e398769a436df133f9c22a0\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\438786eb448967dbfdf15c0047da4828\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6c105360245f769c088976d97fc5a6ce\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\862d618c4a74a92713659a4de235cf27\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\76797c4c057edbfa73c24afedd30b782\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\a209c57a6cb19bd04ce6b598e5f52e3c\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2be3fcadc0b73da83db33b9a995daca0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\ff593eb994a251d8dac437ca978af2af\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\4ebe54eb21a46b11de1c8b6a98382879\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\4316c9e9e14dde16bd0af0cff2b7f84d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2ded99d3d5abd0dc2e952828ff38685a\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6c61fe4d7cb61834524be14a3e240790\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9da2b99caf4161acc264c5b7c456ef74\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e75985f4058d660aa5c80167b45ff8ca\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e490a983018a8fe5e052ac1e6757d8cf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\7dd23e79f189a19093ca0c53867bf175\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bce435b8126b1f73b3c08665a9892128\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\c9ffb37adbc364f7f2414ce4a481eb9b\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9602a88656658a4de59f6d4ed78e4e5c\core-1.3.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bbc9e02901b00dc5016df21c7d21b0fe\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8008323a081a55c8d30e79b17b1f2566\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\ae74097148c08bdff7bea4d1d637dc7b\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\1be9dbcc62c36236b61cf6fa2fd00fc3\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\b5f94b08bd83bda043bbd50468125e86\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e6bb7e01f8e83b7b07e98d45a8a1ae6f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\fa7ba0e021e610e9000bbdd7922306c3\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bdd8f47c13dc015102dfe68de34d5735\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d3140ec19f76d768fe8975db7f441cb6\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\b194165e6cb6e3bf344f1f61ed4fa83f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\367a660fa20cb00ec09dd86cb4f5513d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2095fef3b3cb6004da604f438865388a\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.tony19:apktool-lib:1.4.4-5] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6d5a55fab74ed8baa8e5ca5773ac82d1\jetified-apktool-lib-1.4.4-5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8ed1af7599fcc0c329c2150e48fa649f\jetified-play-services-location-license-11.8.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\26fb0ad72789708d16d0a4b9d796bda9\jetified-play-services-base-license-11.8.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\74f97c578f174a74ebf37adadf1b8235\jetified-play-services-basement-license-11.8.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\91bffbda74975da5cb3f049e7871be09\jetified-play-services-tasks-license-11.8.0\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:125-183
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:125-183
 	android:versionCode
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
 supports-screens
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
 	android:largeScreens
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
 	android:smallScreens
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
 	android:normalScreens
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
 	android:xlargeScreens
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
 	android:resizeable
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
 	android:anyDensity
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:5-35:19
+MERGED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:11:5-16:19
+MERGED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:11:5-16:19
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\33bbb39eb2720ade5a26cdc91a633520\jetified-play-services-location-11.8.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\33bbb39eb2720ade5a26cdc91a633520\jetified-play-services-location-11.8.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\23e73c7a8d9ebe6640bcd58a6921e680\jetified-play-services-tasks-11.8.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\23e73c7a8d9ebe6640bcd58a6921e680\jetified-play-services-tasks-11.8.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9602a88656658a4de59f6d4ed78e4e5c\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9602a88656658a4de59f6d4ed78e4e5c\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e6bb7e01f8e83b7b07e98d45a8a1ae6f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e6bb7e01f8e83b7b07e98d45a8a1ae6f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8ed1af7599fcc0c329c2150e48fa649f\jetified-play-services-location-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8ed1af7599fcc0c329c2150e48fa649f\jetified-play-services-location-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\26fb0ad72789708d16d0a4b9d796bda9\jetified-play-services-base-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\26fb0ad72789708d16d0a4b9d796bda9\jetified-play-services-base-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\74f97c578f174a74ebf37adadf1b8235\jetified-play-services-basement-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\74f97c578f174a74ebf37adadf1b8235\jetified-play-services-basement-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\91bffbda74975da5cb3f049e7871be09\jetified-play-services-tasks-license-11.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\91bffbda74975da5cb3f049e7871be09\jetified-play-services-tasks-license-11.8.0\AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9602a88656658a4de59f6d4ed78e4e5c\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:5:175-201
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:182-208
 	android:label
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:88-120
 	android:hardwareAccelerated
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:53-87
 	android:networkSecurityConfig
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:5:114-174
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:121-181
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:5:209-244
 activity#io.ionic.starter.MainActivity
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:136-173
 	android:launchMode
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:174-204
 	android:windowSoftInputMode
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:296-338
 	android:configChanges
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:19-135
 	android:theme
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:233-295
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:6:205-232
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
 	android:label
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
 action#android.intent.action.MAIN
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
-uses-sdk
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
-MERGED from [:CordovaLib] C:\Users\Erik\ionicBLE_code-master\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] C:\Users\Erik\ionicBLE_code-master\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
-INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
-	android:targetSdkVersion
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:13:42-71
-	android:minSdkVersion
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:13:15-41
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:12:9-122
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:12:66-119
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:12:20-65
+service#com.marianhello.bgloc.sync.SyncService
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:13:9-18:19
+	android:process
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:13:96-119
+	android:exported
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:13:18-41
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:13:42-95
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:14:13-16:29
+action#android.content.SyncAdapter
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:15:17-70
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:15:25-67
+meta-data#android.content.SyncAdapter
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:17:13-105
+	android:resource
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:17:67-102
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:17:24-66
+service#com.marianhello.bgloc.sync.AuthenticatorService
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:19:9-24:19
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:19:18-80
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:20:13-22:29
+action#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:21:17-80
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:21:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:23:13-117
+	android:resource
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:23:77-114
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:23:24-76
+provider#com.marianhello.bgloc.data.provider.LocationContentProvider
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:25:9-208
+	android:authorities
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:25:19-81
+	android:syncable
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:25:182-205
+	android:exported
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:25:82-106
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:25:107-181
+service#com.marianhello.bgloc.service.LocationServiceImpl
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:26:9-133
+	android:enabled
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:26:18-40
+	android:exported
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:26:41-65
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:26:66-130
+receiver#com.marianhello.bgloc.BootCompletedReceiver
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:27:9-31:20
+	android:enabled
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:27:19-41
+	android:exported
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:27:42-65
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:27:66-124
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:28:13-30:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:29:17-79
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:29:25-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:36:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:37:22-76
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:38:22-77
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:39:5-77
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:39:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:40:5-78
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:40:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:41:22-78
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:42:5-94
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:42:22-91
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:14:5-81
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:43:5-81
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:44:5-79
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:44:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:45:5-89
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:45:22-86
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:46:5-68
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:46:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:47:5-77
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:47:22-74
+uses-permission#android.hardware.location
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:48:5-65
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:48:22-62
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:15:5-68
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:49:5-68
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:15:22-65
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:49:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:50:5-74
 	android:name
-		ADDED from C:\Users\Erik\ionicBLE_code-master\platforms\android\app\src\main\AndroidManifest.xml:16:22-71
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:50:22-71
+uses-sdk
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+MERGED from [com.github.tony19:logback-android:1.1.1-9] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c7a3b9983e0b7937e897b90edb129fc\jetified-logback-android-1.1.1-9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:logback-android:1.1.1-9] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c7a3b9983e0b7937e897b90edb129fc\jetified-logback-android-1.1.1-9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] C:\Users\Erik\T1_basic_scanner\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\Erik\T1_basic_scanner\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\33bbb39eb2720ade5a26cdc91a633520\jetified-play-services-location-11.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\33bbb39eb2720ade5a26cdc91a633520\jetified-play-services-location-11.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\23e73c7a8d9ebe6640bcd58a6921e680\jetified-play-services-tasks-11.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\23e73c7a8d9ebe6640bcd58a6921e680\jetified-play-services-tasks-11.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d5b5f83fe3daff167de6f7adf6ec9d0e\jetified-play-services-basement-11.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\dbd7f3404e398769a436df133f9c22a0\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\dbd7f3404e398769a436df133f9c22a0\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\438786eb448967dbfdf15c0047da4828\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\438786eb448967dbfdf15c0047da4828\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6c105360245f769c088976d97fc5a6ce\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6c105360245f769c088976d97fc5a6ce\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\862d618c4a74a92713659a4de235cf27\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\862d618c4a74a92713659a4de235cf27\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\76797c4c057edbfa73c24afedd30b782\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\76797c4c057edbfa73c24afedd30b782\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\a209c57a6cb19bd04ce6b598e5f52e3c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\a209c57a6cb19bd04ce6b598e5f52e3c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2be3fcadc0b73da83db33b9a995daca0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2be3fcadc0b73da83db33b9a995daca0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\ff593eb994a251d8dac437ca978af2af\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\ff593eb994a251d8dac437ca978af2af\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\4ebe54eb21a46b11de1c8b6a98382879\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\4ebe54eb21a46b11de1c8b6a98382879\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\4316c9e9e14dde16bd0af0cff2b7f84d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\4316c9e9e14dde16bd0af0cff2b7f84d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2ded99d3d5abd0dc2e952828ff38685a\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2ded99d3d5abd0dc2e952828ff38685a\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6c61fe4d7cb61834524be14a3e240790\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6c61fe4d7cb61834524be14a3e240790\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9da2b99caf4161acc264c5b7c456ef74\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9da2b99caf4161acc264c5b7c456ef74\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e75985f4058d660aa5c80167b45ff8ca\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e75985f4058d660aa5c80167b45ff8ca\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e490a983018a8fe5e052ac1e6757d8cf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e490a983018a8fe5e052ac1e6757d8cf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\7dd23e79f189a19093ca0c53867bf175\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\7dd23e79f189a19093ca0c53867bf175\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bce435b8126b1f73b3c08665a9892128\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bce435b8126b1f73b3c08665a9892128\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\c9ffb37adbc364f7f2414ce4a481eb9b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\c9ffb37adbc364f7f2414ce4a481eb9b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9602a88656658a4de59f6d4ed78e4e5c\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\9602a88656658a4de59f6d4ed78e4e5c\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bbc9e02901b00dc5016df21c7d21b0fe\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bbc9e02901b00dc5016df21c7d21b0fe\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8008323a081a55c8d30e79b17b1f2566\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8008323a081a55c8d30e79b17b1f2566\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\ae74097148c08bdff7bea4d1d637dc7b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\ae74097148c08bdff7bea4d1d637dc7b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\1be9dbcc62c36236b61cf6fa2fd00fc3\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\1be9dbcc62c36236b61cf6fa2fd00fc3\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\b5f94b08bd83bda043bbd50468125e86\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\b5f94b08bd83bda043bbd50468125e86\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e6bb7e01f8e83b7b07e98d45a8a1ae6f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\e6bb7e01f8e83b7b07e98d45a8a1ae6f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\fa7ba0e021e610e9000bbdd7922306c3\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\fa7ba0e021e610e9000bbdd7922306c3\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bdd8f47c13dc015102dfe68de34d5735\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\bdd8f47c13dc015102dfe68de34d5735\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d3140ec19f76d768fe8975db7f441cb6\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\d3140ec19f76d768fe8975db7f441cb6\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\b194165e6cb6e3bf344f1f61ed4fa83f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\b194165e6cb6e3bf344f1f61ed4fa83f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\367a660fa20cb00ec09dd86cb4f5513d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\367a660fa20cb00ec09dd86cb4f5513d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2095fef3b3cb6004da604f438865388a\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\2095fef3b3cb6004da604f438865388a\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.tony19:apktool-lib:1.4.4-5] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6d5a55fab74ed8baa8e5ca5773ac82d1\jetified-apktool-lib-1.4.4-5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:apktool-lib:1.4.4-5] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\6d5a55fab74ed8baa8e5ca5773ac82d1\jetified-apktool-lib-1.4.4-5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8ed1af7599fcc0c329c2150e48fa649f\jetified-play-services-location-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\8ed1af7599fcc0c329c2150e48fa649f\jetified-play-services-location-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\26fb0ad72789708d16d0a4b9d796bda9\jetified-play-services-base-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\26fb0ad72789708d16d0a4b9d796bda9\jetified-play-services-base-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\74f97c578f174a74ebf37adadf1b8235\jetified-play-services-basement-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\74f97c578f174a74ebf37adadf1b8235\jetified-play-services-basement-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\91bffbda74975da5cb3f049e7871be09\jetified-play-services-tasks-license-11.8.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\91bffbda74975da5cb3f049e7871be09\jetified-play-services-tasks-license-11.8.0\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:33:13-130
+	android:resource
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:33:75-127
+	android:name
+		ADDED from C:\Users\Erik\T1_basic_scanner\platforms\android\app\src\main\AndroidManifest.xml:33:24-74
+activity#com.intentfilter.androidpermissions.PermissionsActivity
+ADDED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:12:9-15:59
+	android:excludeFromRecents
+		ADDED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:14:13-46
+	android:theme
+		ADDED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from [com.intentfilter:android-permissions:0.1.7] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\0c1708a553e01e07280db856fb3e5a28\jetified-android-permissions-0.1.7\AndroidManifest.xml:13:13-83
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Erik\.gradle\caches\transforms-2\files-2.1\66d60992ab40970fb80cfe9ad0eb80d5\jetified-play-services-base-11.8.0\AndroidManifest.xml:24:13-79

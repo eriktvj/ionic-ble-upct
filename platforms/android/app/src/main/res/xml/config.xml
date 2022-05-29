@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <feature name="BLE">
-        <param name="android-package" value="com.megster.cordova.ble.central.BLECentralPlugin" />
-    </feature>
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="StatusBar">
-        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
-        <param name="onload" value="true" />
+    <allow-navigation href="cdvfile:*" />
+    <feature name="CordovaHttpPlugin">
+        <param name="android-package" value="com.silkimen.cordovahttp.CordovaHttpPlugin" />
+    </feature>
+    <feature name="BackgroundGeolocation">
+        <param name="android-package" value="com.tenforwardconsulting.bgloc.cordova.BackgroundGeolocationPlugin" />
     </feature>
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
@@ -18,14 +18,28 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BLE">
+        <param name="android-package" value="com.megster.cordova.ble.central.BLECentralPlugin" />
+    </feature>
+    <feature name="EmailComposer">
+        <param name="android-package" value="de.appplant.cordova.emailcomposer.EmailComposer" />
+    </feature>
+    <feature name="CDVIonicKeyboard">
+        <param name="android-package" onload="true" value="io.ionic.keyboard.CDVIonicKeyboard" />
+    </feature>
     <allow-navigation href="http://localhost/*" />
     <allow-navigation href="https://localhost/*" />
     <allow-navigation href="ionic://*" />
     <feature name="IonicWebView">
         <param name="android-package" value="com.ionicframework.cordova.webview.IonicWebView" />
-    </feature>
-    <feature name="CDVIonicKeyboard">
-        <param name="android-package" onload="true" value="io.ionic.keyboard.CDVIonicKeyboard" />
     </feature>
     <name>MyApp</name>
     <description>An awesome Ionic/Cordova app.</description>
@@ -62,6 +76,7 @@
     <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
     <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidXEnabled" value="true" />
     <preference name="webView" value="com.ionicframework.cordova.webview.IonicWebViewEngine" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="BackupWebStorage" value="none" />
