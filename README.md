@@ -1,3 +1,3 @@
 # ionicBLE_code
 
-This is my code enjoy
+Code provided by Erik García as a research intern for Universidad Politécnica de Cartagena
